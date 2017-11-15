@@ -6,13 +6,8 @@
 
     <uses-sdk
         android:minSdkVersion="17"
-        android:targetSdkVersion="25" />
+        android:targetSdkVersion="26" />
 
-    
-    <permission 
-        android:name="livroandroid.cap16.maps.v2.permission.MAPS_RECEIVE"
-        android:protectionLevel="signature" />
-    
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
@@ -34,12 +29,7 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
         
-        <!-- Chave debug -->
-        <!-- meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBuaVTVMt2Aux7dSHTdyBkWC0T95dlWaVo" /-->
-        
-        <!-- Chave release -->
+        <!-- Debug key. This should be configured in your computer -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyCbaR9cOeCRs4Cp_0tDWUED-QKeDQkAH_I" />
