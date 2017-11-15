@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/action_button_add_base_station"
+        android:icon="@drawable/bs_unselected"
+        android:orderInCategory="100"
+        android:title="@string/action_bar_add_bs"
+        android:showAsAction="always"/> 
+    <item
+        android:id="@+id/action_button_add_probe"
+        android:icon="@drawable/probe_unselected"
+        android:orderInCategory="100"
+        android:checkable="true"
+        android:title="@string/action_bar_add_probe"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/action_button_add_box"
+        android:icon="@drawable/box_unselected"
+        android:orderInCategory="100"
+        android:title="@string/action_bar_add_box"
+        android:showAsAction="always"/>
+</menu>

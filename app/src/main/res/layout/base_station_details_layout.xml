@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@drawable/button_border" >
+
+    <TextView
+        style="@style/text_view_marker_attr_name"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/base_station" />
+    
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+	    android:weightSum="10"
+	    android:orientation="horizontal"
+	    android:background="@color/app_background_color" >
+		<TextView
+		    style="@style/text_view_marker_attr_name"
+		    android:text="@string/name" />
+		<TextView
+		    android:id="@+id/bs_name"
+		    style="@style/text_view_marker_attr_value" />
+	</LinearLayout>
+		
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+  	    android:weightSum="10"
+	    android:orientation="horizontal"
+	    android:background="@color/app_background_color" >
+		<TextView
+		    style="@style/text_view_marker_attr_name"
+		    android:text="@string/latitude" />
+		<TextView
+		    android:id="@+id/bs_latitude"
+		    style="@style/text_view_marker_attr_value" />
+	</LinearLayout>
+	
+		<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+  	    android:weightSum="10"
+	    android:orientation="horizontal"
+	    android:background="@color/app_background_color" >
+		<TextView
+		    style="@style/text_view_marker_attr_name"
+		    android:text="@string/longitude" />
+		<TextView
+		    android:id="@+id/bs_longitude"
+		    style="@style/text_view_marker_attr_value" />
+	</LinearLayout>
+	
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+	    android:weightSum="10"
+	    android:orientation="horizontal"
+	    android:background="@color/app_background_color"  >
+		<TextView
+		    style="@style/text_view_marker_attr_name"
+		    android:text="@string/basestation_height" />
+		<TextView
+		    android:id="@+id/bs_height"
+		    style="@style/text_view_marker_attr_value" />
+	</LinearLayout>
+
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+	    android:weightSum="10"
+	    android:orientation="horizontal"
+	    android:background="@color/app_background_color">
+		<TextView
+		    style="@style/text_view_marker_attr_name"
+		    android:text="@string/frequency" />
+		<TextView
+		    android:id="@+id/bs_frequency"
+		    style="@style/text_view_marker_attr_value" />
+	</LinearLayout>
+	
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+	    android:weightSum="10"
+	    android:orientation="horizontal"
+	    android:background="@color/app_background_color">
+		<TextView
+		    style="@style/text_view_marker_attr_name"
+		    android:text="@string/tilt" />
+		<TextView
+		    android:id="@+id/bs_tilt"
+		    style="@style/text_view_marker_attr_value" />
+	</LinearLayout>
+	
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+	    android:weightSum="10"
+	    android:orientation="horizontal"
+	    android:background="@color/app_background_color">
+		<TextView
+		    style="@style/text_view_marker_attr_name"
+		    android:text="@string/vertical_beamwidth" />
+		<TextView
+		    android:id="@+id/bs_vertical_beamwidth"
+		    style="@style/text_view_marker_attr_value" />
+	</LinearLayout>
+	
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+	    android:weightSum="10"
+	    android:orientation="horizontal"
+	    android:background="@color/app_background_color">
+		<TextView
+		    style="@style/text_view_marker_attr_name"
+		    android:text="@string/transmitted_power" />
+		<TextView
+		    android:id="@+id/bs_eirp"
+		    style="@style/text_view_marker_attr_value" />
+	</LinearLayout>
+	
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+	    android:weightSum="10"
+	    android:orientation="horizontal"
+	    android:background="@color/app_background_color">
+		<TextView
+		    style="@style/text_view_marker_attr_name"
+		    android:text="@string/sidelobe_envelope" />
+		<TextView
+		    android:id="@+id/bs_sidelobe_envelope"
+		    style="@style/text_view_marker_attr_value" />
+	</LinearLayout>
+
+</LinearLayout>

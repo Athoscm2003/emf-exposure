@@ -12,6 +12,7 @@
 bin/
 gen/
 out/
+app/build/
 
 # Gradle files
 .gradle/
@@ -53,3 +54,6 @@ google-services.json
 freeline.py
 freeline/
 freeline_project_description.json
+
+# Personal files
+recursos/

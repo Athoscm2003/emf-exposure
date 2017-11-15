@@ -1,0 +1,167 @@
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background_color" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/app_background_color"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+	    android:orientation="vertical">
+	    
+        <TextView
+		    android:text="@string/probe"
+		    style="@style/text_view_section_title"
+            />
+		<LinearLayout style="@style/line_properties_layout">
+			<TextView
+			    android:id="@+id/textview_probe_height"
+			    android:text="@string/probe_height_with_units"
+			    style="@style/text_view_normal"
+			    android:layout_width="0dp"
+			    android:layout_weight="6"
+			    />
+			<EditText
+			    android:id="@+id/edittext_probe_height"
+			    style="@style/text_view_normal"
+			    android:layout_gravity="center_horizontal|center_vertical"
+			    android:gravity="center_horizontal|center_vertical"
+			    android:paddingLeft="16dp"
+			    android:paddingRight="16dp"
+			    android:layout_width="0dp"
+			    android:layout_weight="4"
+			    android:inputType="numberDecimal"
+			    />
+		</LinearLayout>
+        <include layout="@layout/horizontal_line"/>
+        <TextView
+		    android:text="@string/box"
+		    style="@style/text_view_section_title"
+            />
+
+		<LinearLayout style="@style/line_properties_layout" 
+		    android:paddingTop="0dp"
+		    android:paddingBottom="0dp">
+			<TextView
+			    android:id="@+id/show_in_box"
+			    android:text="@string/show"
+			    style="@style/text_view_normal"
+			    android:layout_width="0dp"
+			    android:layout_weight="6"
+			    />
+			<Spinner
+			    android:id="@+id/spinner_show_in_box_options"
+			    android:layout_weight="4"
+			    android:layout_width="0dp"
+			    android:entries="@array/show_in_box_options"
+				style="@style/spinner_style" />
+		</LinearLayout>
+		<LinearLayout style="@style/line_properties_layout" 
+		    android:paddingTop="0dp"
+		    android:paddingBottom="0dp">
+			<TextView
+			    android:id="@+id/color_map"
+			    android:text="@string/colormap"
+			    style="@style/text_view_normal"
+			    android:layout_width="0dp"
+			    android:layout_weight="6"
+			    />
+			<Spinner
+			    android:id="@+id/spinner_colormap_options"
+			    android:layout_weight="4"
+			    android:layout_width="0dp"
+				style="@style/spinner_style" />
+		</LinearLayout>
+		<LinearLayout 
+		    style="@style/line_properties_layout" android:paddingTop="0dp">
+			<TextView
+			    android:id="@+id/textview_min_value"
+			    android:text="@string/min_value_vm"
+			    style="@style/text_view_normal"
+			    android:layout_width="0dp"
+			    android:layout_weight="6"
+			    />
+			<EditText
+			    android:id="@+id/edittext_min_value"
+			    style="@style/text_view_normal"
+			    android:layout_gravity="center_horizontal|center_vertical"
+			    android:gravity="center_horizontal|center_vertical"
+			    android:paddingLeft="16dp"
+			    android:paddingRight="16dp"
+			    android:layout_width="0dp"
+			    android:layout_weight="4"
+			    android:inputType="numberDecimal"
+			    />
+		</LinearLayout>
+		<LinearLayout style="@style/line_properties_layout">
+			<TextView
+			    android:id="@+id/textview_max_value"
+			    android:text="@string/max_value_vm"
+			    style="@style/text_view_normal"
+			    android:layout_width="0dp"
+			    android:layout_weight="6"
+			    />
+			<EditText
+			    android:id="@+id/edittext_max_value"
+			    style="@style/text_view_normal"
+			    android:layout_gravity="center_horizontal|center_vertical"
+			    android:gravity="center_horizontal|center_vertical"
+			    android:paddingLeft="16dp"
+			    android:paddingRight="16dp"
+			    android:layout_width="0dp"
+			    android:layout_weight="4"
+			    android:inputType="numberDecimal"
+			    />
+		</LinearLayout>
+        <include layout="@layout/horizontal_line"/>
+        <TextView
+		    android:text="@string/map"
+		    style="@style/text_view_section_title"
+            />
+		<LinearLayout 
+		    style="@style/line_properties_layout" 
+		    android:paddingTop="0dp"
+		    android:paddingBottom="0dp">
+			<TextView
+			    android:id="@+id/map_type"
+			    android:text="@string/map_type"
+			    style="@style/text_view_normal"
+			    android:layout_width="0dp"
+			    android:layout_weight="6"
+			    />
+	
+			<Spinner
+			    android:id="@+id/spinner_map_type_options"
+			    android:layout_weight="4"
+			    android:layout_width="0dp"
+			    android:entries="@array/map_type_options"
+				style="@style/spinner_style" />
+		</LinearLayout>
+		<include layout="@layout/horizontal_line"/>
+		<LinearLayout style="@style/line_properties_layout">
+			<Button
+			    android:id="@+id/button_cancel_properties"
+			    android:text="@string/cancel"
+			    style="@style/button_style"
+			    android:layout_width="0dp"
+			    android:layout_weight="4.5"
+			    android:padding="10dp"
+			    />
+			<View
+			    android:layout_height="match_parent"
+     			android:layout_width="0dp"
+			    android:layout_weight="1"
+		        android:background="@color/app_background_color" />
+			<Button
+			    android:id="@+id/button_save_properties"
+			    android:text="@string/save"
+			    style="@style/button_style"
+			    android:layout_width="0dp"
+			    android:layout_weight="4.5"
+			    />
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>
