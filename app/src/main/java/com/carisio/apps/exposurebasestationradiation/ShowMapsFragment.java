@@ -168,8 +168,8 @@ public class ShowMapsFragment extends SupportMapFragment implements OnMapReadyCa
 		    	double probeHeight = AppProperties.getProbeHeight();
 		    	Pair<Double, Double> result = getEandTERatProbe(marker, probeHeight);
 
-				latitude.setText(format(marker.getPosition().latitude, 7) + " º");
-				longitude.setText(format(marker.getPosition().longitude, 7) + " º");
+				latitude.setText(format(marker.getPosition().latitude, 7) + " \u00b0");
+				longitude.setText(format(marker.getPosition().longitude, 7) + " \u00b0");
 				height.setText(format(probeHeight, 2) + " m");
 				eField.setText(format(result.getFirst(), 2) + " V/m");
 				ter.setText(format(result.getSecond(), 2) + " %");
@@ -192,12 +192,12 @@ public class ShowMapsFragment extends SupportMapFragment implements OnMapReadyCa
 		    	TextView sidelobe = (TextView) view.findViewById(R.id.bs_sidelobe_envelope);
 
 		    	name.setText(bs.getName());
-		    	latitude.setText(format(bs.getLatitude(), 7) + " �");
-				longitude.setText(format(bs.getLongitude(), 7) + " �");
+		    	latitude.setText(format(bs.getLatitude(), 7) + " \u00b0");
+				longitude.setText(format(bs.getLongitude(), 7) + " \u00b0");
 				height.setText(format(bs.getHeight(), 2, ", ") + " m");
 				frequency.setText(format(bs.getFrequencyMHz(), 3, ", ") + " MHz");
-				tilt.setText(format(bs.getTiltDegree(), 2, ", ") + " �");
-				vertical_beamwidth.setText(format(bs.getThetaBwVerticalDegree(), 1, ", ") + " �");
+				tilt.setText(format(bs.getTiltDegree(), 2, ", ") + " \u00b0");
+				vertical_beamwidth.setText(format(bs.getThetaBwVerticalDegree(), 1, ", ") + " \u00b0");
 				eirp.setText(format(bs.getEirpMaxdBm(), 1, ", ") + " dBm");
 				sidelobe.setText(format(bs.getMaxSideLobeEnvelopedB(), 2, ", ") + " dB");
 

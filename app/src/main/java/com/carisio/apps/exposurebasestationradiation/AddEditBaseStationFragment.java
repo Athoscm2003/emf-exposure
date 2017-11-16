@@ -3,6 +3,8 @@ package com.carisio.apps.exposurebasestationradiation;
 import static com.carisio.apps.exposurebasestationradiation.util.Format.format;
 import telecom.basestation.DirectivityCat2BS;
 import telecom.util.Point2D;
+
+import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -44,9 +46,13 @@ public class AddEditBaseStationFragment extends RetainedFragment implements OnFo
 	private GoogleMap map;
 	private String bsID;
 	private boolean add;
-	
+
+	public AddEditBaseStationFragment() {
+
+	}
 	/* If bsID is null, than this class is used to add a new BS.
 	 * Otherwise, this class is used to edit it.*/
+	@SuppressLint("ValidFragment")
 	public AddEditBaseStationFragment(LatLng latLng, GoogleMap map, String bsID) {
 		this.latLng = latLng;
 		this.map = map;
