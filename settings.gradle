@@ -1,1 +1,3 @@
+// Permite que o gradle utilize o arquivo app/build.gradle? 
+
 include ':app'

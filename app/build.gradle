@@ -1,3 +1,5 @@
+// Seleciona bibliotecas para o projeto no android
+
 apply plugin: 'com.android.application'
 
 android {
