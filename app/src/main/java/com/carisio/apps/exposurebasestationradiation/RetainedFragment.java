@@ -1,3 +1,5 @@
+// Criação de fragmento que retém mudanças de configuração?
+
 package com.carisio.apps.exposurebasestationradiation;
 
 import android.support.v4.app.Fragment;

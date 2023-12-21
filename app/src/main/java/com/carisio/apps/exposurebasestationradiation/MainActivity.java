@@ -1,3 +1,5 @@
+// Arquivo main
+
 package com.carisio.apps.exposurebasestationradiation;
 
 import java.util.HashMap;

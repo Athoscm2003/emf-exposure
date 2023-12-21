@@ -1,3 +1,5 @@
+// Criação de um fragmento que exibe um layout explicativo?
+
 package com.carisio.apps.exposurebasestationradiation;
 
 import android.os.Bundle;
