@@ -1,3 +1,5 @@
+// Aplica uma personalização de texto em caixa de alerta?
+
 package com.carisio.apps.exposurebasestationradiation.util;
 
 import android.app.AlertDialog;

@@ -1,3 +1,5 @@
+// Aplica formatação em números de acordo com a localidade en-US?
+
 package com.carisio.apps.exposurebasestationradiation.util;
 
 import java.util.Locale;

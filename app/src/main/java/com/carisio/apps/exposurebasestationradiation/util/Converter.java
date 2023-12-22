@@ -1,3 +1,5 @@
+// Contém métodos que convertem arrays de double para strings e vice-versa
+
 package com.carisio.apps.exposurebasestationradiation.util;
 
 import java.util.StringTokenizer;
