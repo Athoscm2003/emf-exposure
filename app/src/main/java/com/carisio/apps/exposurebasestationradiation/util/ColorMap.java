@@ -1,3 +1,5 @@
+// Permite a criação de mapas com range de cores diferentes?
+
 package com.carisio.apps.exposurebasestationradiation.util;
 
 import java.util.ArrayList;

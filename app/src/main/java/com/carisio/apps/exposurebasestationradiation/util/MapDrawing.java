@@ -1,3 +1,5 @@
+// Permite a criação de mapas com sondas, marcadores e caixas?
+
 package com.carisio.apps.exposurebasestationradiation.util;
 
 import java.util.ArrayList;

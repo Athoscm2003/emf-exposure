@@ -1,3 +1,5 @@
+// Valida se a string possui conteúdo e mostra mensagem de erro
+
 package com.carisio.apps.exposurebasestationradiation.util.validators;
 
 import com.carisio.apps.exposurebasestationradiation.R;
