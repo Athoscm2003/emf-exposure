@@ -1,3 +1,5 @@
+<!--Cria um fundo de duas camadas sendo a primeira mais escura e a segunda mais clara-->
+
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
 	<item> 
