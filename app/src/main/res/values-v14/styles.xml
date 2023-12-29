@@ -1,3 +1,5 @@
+<!--Configura um estilo base para o aplicativo em dispositivos com API 14 ou superior e permite que desenvolvedores adicionem customizações pelo código-->
+
 <resources>
 
     <!--
